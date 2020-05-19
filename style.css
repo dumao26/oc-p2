@@ -1,0 +1,214 @@
+*{
+    font-family: Verdana, "Arial Black", Arial, Comic Sans MS, sans-serif;
+}
+
+body{
+	background-color: rgb(238, 241, 231)
+}
+
+body, h2, ul, h1{
+	padding: 0;
+	margin: 0;
+	
+}
+.sidebar-bullet{
+	margin-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.fullname{
+	margin-top: 4em;
+	margin-bottom: 4em;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.profil-wrapper {
+	display: flex;
+	justify-content: center;
+	margin: 3em 0px;
+}
+
+.profil-pic{
+	display: inline-block;
+    border: 2px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+/* h1 = OLIVIER DUMAS */
+h1{
+	font-size: xx-large;
+	color: rgb(245, 160, 2);
+}
+
+/* titre du job : Developpeur Web Freelance */
+.titlejob{
+	display: flex;
+	justify-content: start;
+	font-size: medium;
+	color: rgb(7, 27, 44);
+}
+
+.underline-title{
+	border-bottom: 0.1em solid rgb(245, 160, 2);
+	
+}
+
+.contenair{
+	max-width: 1100px;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	padding: auto;
+}
+
+.sidebar{
+	background-color: rgb(245, 160, 2);
+	max-width: 300px;
+	min-width: 300px;
+}	
+
+.main{
+	background-color:white;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.header{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.titre{
+	display:block;
+	border-bottom: 0.1em solid; color: rgb(255, 174, 0);
+	text-align: left;
+	padding-bottom: 15px;
+}
+
+.sidebar-title{
+	text-align: center;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    font-weight: normal;
+    background: rgb(0, 11, 15);
+    color: rgb(245, 160, 2);
+    margin: auto;
+	padding: 10px 0px;
+	text-transform: uppercase;
+}
+
+.sidebar-body{
+	padding: 20px 30px;
+	display: flex; 
+	justify-content: space-between;
+	margin-bottom: 25px;
+}
+
+.career-title{
+	display: flex;
+	justify-content: start;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+p{	
+	text-align: left;
+}
+
+/* nopuce = pour ne pas voir les marqueur de la liste contact */
+.nopuce{
+	list-style-type: none;
+}
+
+footer{
+	position: relative;
+	bottom:0;
+	padding-top:50px;
+	height:50px;
+}
+
+.main-section{
+	padding: 40px 20px;
+}
+
+/* spancolor = titre des catégorie (formation Exp Pro Recommandations) */
+.spancolor{
+	color: black;
+	margin-left: 10px;
+}
+
+/* espaceligne = interligne dans recommandations */
+.espaceligne{
+	line-height: 2em; 
+}
+
+.subtitle{
+    display: flex;
+	justify-content: start;
+	margin-bottom: 15px;
+}
+
+.event{
+	display: flex;
+	margin-bottom: 30px;
+}
+.periode{
+	width: 200px;
+	display: flex;
+}
+
+.periode-descriptif{
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 30px;
+}
+
+.date-and-location{
+	padding-left: 15px;
+	width: 200px;
+	font-weight: bold;
+}
+
+.icone-color{
+	color: rgb(245, 160, 2);
+}
+
+@media all and (max-width: 750px)
+{
+    .contenair
+    {
+        flex-direction: column;
+    }
+
+    .event
+    {
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+	
+	.sidebar{
+		max-width: none;
+		min-width: none;
+	}
+
+	.periode-descriptif{
+		padding-left: 0px;
+		margin: 20px 30px;
+	}
+
+	.main-section{
+		padding: 40px 5px;
+	}
+
+}
