@@ -124,7 +124,6 @@ p{
 	text-align: left;
 }
 
-/* nopuce = pour ne pas voir les marqueur de la liste contact */
 .nopuce{
 	list-style-type: none;
 }
@@ -140,13 +139,11 @@ footer{
 	padding: 40px 20px;
 }
 
-/* spancolor = titre des catégorie (formation Exp Pro Recommandations) */
 .title-category{
 	color: black;
 	margin-left: 10px;
 }
 
-/* espaceligne = interligne dans recommandations */
 .espaceligne{
 	line-height: 2em; 
 }
