@@ -152,6 +152,7 @@ footer{
     display: flex;
 	justify-content: start;
 	margin-bottom: 15px;
+	font-style: normal;
 }
 
 .event{
