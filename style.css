@@ -205,15 +205,20 @@ footer{
 		padding-left: 0px;
 		margin: 20px 30px;
 	}
+
 }
 
 @media all and (max-width: 750px)
 {
-    .container
+	.container
     {
-        flex-direction: column;
+		flex-direction: column;
     }
-
+	
+	.fullname{
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
 	
 	.sidebar{
 		max-width: none;
