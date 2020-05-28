@@ -59,6 +59,10 @@ h1{
 	
 }
 
+.link-color{
+	color: black;
+}
+
 .container{
 	max-width: 1100px;
 	display: flex;
