@@ -66,6 +66,14 @@ h1{
 	text-decoration: none;
 }
 
+.icone-circle
+{
+ background-color: rgb(245, 160, 2);
+ border-radius: 100%;
+ border: 1px solid black;
+ padding:10px;
+}
+
 .container{
 	max-width: 1100px;
 	display: flex;
