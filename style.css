@@ -194,8 +194,24 @@ footer{
 	color: rgb(245, 160, 2);
 }
 
+.hide-on-mobile{
+	display: block;
+}
+
+.show-on-mobile{
+	display: none;
+}
+
 @media all and (max-width: 950px)
 {
+
+	.hide-on-mobile{
+		display: none;
+	}
+	
+	.show-on-mobile{
+		display: block;
+	}
 
 	.event
 	{
