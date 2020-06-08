@@ -233,6 +233,10 @@ footer{
 		margin: 20px 30px;
 	}
 
+	h1{
+		color: white;
+	}
+
 }
 
 @media all and (max-width: 750px)
