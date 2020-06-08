@@ -252,8 +252,8 @@ footer{
 	}
 	
 	.sidebar{
-		max-width: none;
-		min-width: none;
+		max-width: unset;
+		min-width: unset;
 	}
 	
 	.main-section{
