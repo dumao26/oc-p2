@@ -84,7 +84,6 @@ h1{
 	display: flex;
 	justify-content: center;
 	margin: auto;
-	display: flex;
 }
 
 .sidebar{
@@ -211,7 +210,8 @@ footer{
 .recommandation {
 	display: inline-block;
 	height: 360px;
-	width: 360px;
+	width: 360px;	
+	
 }
 
 .hide-on-mobile{
@@ -244,7 +244,7 @@ footer{
 		margin: 20px 30px;
 	}
 
-	.main-title-color{
+	.main-title-color h1{
 		color: black;
 	}
 
