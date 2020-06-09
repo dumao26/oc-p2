@@ -248,6 +248,13 @@ footer{
 
 	.main-title-color h1{
 		color: black;
+		display: flex;
+		justify-content: center;
+	}
+
+	.titlejob{
+		display: flex;
+		justify-content: center;
 	}
 
 	h3{
