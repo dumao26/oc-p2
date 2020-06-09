@@ -84,6 +84,7 @@ h1{
 	display: flex;
 	justify-content: center;
 	margin: auto;
+	display: flex;
 }
 
 .sidebar{
@@ -205,6 +206,14 @@ footer{
 
 .icone-color{
 	color: rgb(245, 160, 2);
+}
+
+.recommandation {
+	display: inline-block;
+	height: 350px;
+	width: 350px;
+	
+	
 }
 
 .hide-on-mobile{
