@@ -210,10 +210,8 @@ footer{
 
 .recommandation {
 	display: inline-block;
-	height: 350px;
-	width: 350px;
-	
-	
+	height: 360px;
+	width: 360px;
 }
 
 .hide-on-mobile{
