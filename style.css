@@ -209,8 +209,8 @@ footer{
 
 .recommandation {
 	display: inline-block;
-	height: 360px;
-	width: 360px;	
+	height: 40%;
+	width: 40%;	
 	
 }
 
@@ -279,7 +279,7 @@ footer{
 		padding: 40px 5px;
 	}
 
-	.main-title-color{
+	.main-title-color h1{
 		color: black;
 	}
 
