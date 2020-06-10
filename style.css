@@ -138,6 +138,13 @@ h1{
 	font-weight: bold;
 }
 
+.subtitle{
+    display: flex;
+	justify-content: start;
+	margin-bottom: 15px;
+	font-style: normal;
+}
+
 p{	
 	text-align: left;
 }
@@ -171,13 +178,6 @@ footer{
 
 .espaceligne{
 	line-height: 2em; 
-}
-
-.subtitle{
-    display: flex;
-	justify-content: start;
-	margin-bottom: 15px;
-	font-style: normal;
 }
 
 .event{
