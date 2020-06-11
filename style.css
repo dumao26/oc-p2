@@ -131,6 +131,19 @@ h1{
 	margin-bottom: 25px;
 }
 
+.periode-descriptif{
+	padding-left: 20px;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 30px;
+}
+
+.date-and-location{
+	padding-left: 15px;
+	width: 200px;
+	font-weight: bold;
+}
+
 .career-title{
 	display: flex;
 	justify-content: start;
@@ -188,19 +201,6 @@ footer{
 .periode{
 	width: 200px;
 	display: flex;
-}
-
-.periode-descriptif{
-	padding-left: 20px;
-	display: flex;
-	flex-direction: column;
-	margin: 0px 30px;
-}
-
-.date-and-location{
-	padding-left: 15px;
-	width: 200px;
-	font-weight: bold;
 }
 
 .icone-color{
