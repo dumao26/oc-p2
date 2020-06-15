@@ -6,7 +6,7 @@ body{
 	background-color: rgb(238, 241, 231)
 }
 
-body, h3, ul, h1{
+body, ul, h1, h2, h3, h4, h5{
 	padding: 0;
 	margin: 0;
 	
@@ -87,9 +87,13 @@ h1{
 }
 
 .sidebar{
+	
 	background-color: rgb(245, 160, 2);
 	max-width: 300px;
 	min-width: 300px;
+	display: flex; 
+	flex-direction: column;
+	justify-content: space-between;
 }	
 
 .main{
@@ -156,6 +160,7 @@ h1{
 	justify-content: start;
 	margin-bottom: 15px;
 	font-style: normal;
+	font-weight: normal;
 }
 
 p{	
