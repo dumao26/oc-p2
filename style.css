@@ -241,6 +241,12 @@ footer{
 		display: block;
 	}
 
+	.main{
+		background-color:white;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
 	.event
 	{
 		flex-direction: column;
@@ -276,7 +282,13 @@ footer{
     {
 		flex-direction: column;
 		
-    }
+	}
+	
+	.main{
+		background-color:white;
+		padding-left: 1em;
+		padding-right: 1em;
+	}
 	
 	.fullname
 	{
