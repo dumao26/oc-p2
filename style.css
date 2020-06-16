@@ -21,11 +21,21 @@ body, ul, h1, h2, h3, h4, h5{
 
 .fullname{
 	margin-top: 4em;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.fullname-picture{
+
+	margin-top: 4em;
 	margin-bottom: 4em;
 	height: 200px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	
 }
 
 .profil-wrapper {
