@@ -191,8 +191,12 @@ p{
 	margin-left: 10px;
 }
 
-.espaceligne{
-	line-height: 2em; 
+.recommandation div{
+	margin-bottom: 10px; 
+}
+
+.recommandation-name{
+	font-weight: bold;
 }
 
 .event{
