@@ -73,9 +73,17 @@ h1{
 	padding-bottom: 5px;	
 }
 
-.link-color{
-	color: black;
+.link-text, .link-icone{
+	color: 	#484848;
 	text-decoration: none;
+}
+
+.link-text:hover, .link-icone:hover{
+	color: black;
+}
+
+.link-text:hover{
+	text-decoration: underline;
 }
 
 .icone-circle
