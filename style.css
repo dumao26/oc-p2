@@ -34,7 +34,7 @@ body, ul, h1, h2, h3, h4, h5{
 	justify-content: center;	
 }
 
-.profil-wrapper {
+.profil-wrapper{
 	display: flex;
 	justify-content: center;
 	margin: 3em 0px;
@@ -106,7 +106,6 @@ h1{
 }
 
 .sidebar{
-	
 	background-color: rgb(245, 160, 2);
 	max-width: 300px;
 	min-width: 300px;
@@ -220,7 +219,7 @@ p{
 	color: rgb(245, 160, 2);
 }
 
-.recommandation {
+.recommandation{
 	display: inline-block;
 	height: 40%;
 	margin-right: 120px;
