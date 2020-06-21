@@ -86,8 +86,7 @@ h1{
 	text-decoration: underline;
 }
 
-.icone-circle
-{
+.icone-circle{
  	background-color: rgb(245, 160, 2);
  	border-radius: 100%;
  	border: 1px solid black;
@@ -281,7 +280,7 @@ p{
 	h3{
 		margin-top: 30px;
 	}
-
+	
 }
 
 @media all and (max-width: 750px)
@@ -328,6 +327,11 @@ p{
 
 	h3{
 		margin-top: 30px;
+	}
+
+	.recommandation{
+		padding: 40px 20px;
+
 	}
 
 }
